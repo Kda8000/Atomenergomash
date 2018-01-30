@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,200i,400,400i,700i');
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.menu {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  z-index: 1;
+}
+
+.menu-position a {
+  text-decoration: none;
+}
+
+.menu-position {
+  width: 60vw;
+  min-height: 35px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.8;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  border: white 1px solid;
+  cursor: pointer;
+}
+
+/*Dropdown menu*/
+
+.menu-home-dropdown, .menu-technologies-dropdown, .menu-innovations-dropdown, .menu-about-us-dropdown, .menu-contacts-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-home-content, .menu-technologies-content, .menu-innovations-content, .menu-about-us-content, .menu-contacts-content {
+  display: none;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.9);
+  max-width: 60vw;
+  border: white 1px solid;
+}
+
+.menu-home-content a, .menu-technologies-content a, .menu-innovations-content a, .menu-about-us-content a, .menu-contacts-content a {
+  color: black;
+  padding: 7px 7px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.menu-home-content a:hover, .menu-technologies-content a:hover, .menu-innovations-content a:hover, .menu-about-us-content a:hover, .menu-contacts-content a:hover {
+  background-color: rgba(255, 4, 0, 0.3);
+  font-weight: bold;
+}
+
+.menu-home-dropdown:hover .menu-home-content, .menu-technologies-dropdown:hover .menu-technologies-content, .menu-innovations-dropdown:hover .menu-innovations-content, .menu-about-us-dropdown:hover .menu-about-us-content, .menu-contacts-dropdown:hover .menu-contacts-content {
+  display: block;
+}
+
+.menu-home-dropdown:hover .menu-position, .menu-technologies-dropdown:hover .menu-position, .menu-innovations-dropdown:hover .menu-position, .menu-about-us-dropdown:hover .menu-position, .menu-contacts-dropdown:hover .menu-position {
+  background-color: rgba(255, 4, 0, 0.7);
+  color: white;
+}
+
+/*Finish dropdown menu*/
+
+.p1-man, .p2-water, .p3-deficiency, .p4-technologies, .p5-innovations, .p6-map {
+  height: 100%;
+  background-size: cover;
+}
+
+.p1-man {
+  background: url('https://github.com/Kda8000/Water/blob/master/images/Page1-Head.jpg?raw=true') no-repeat;
+  background-position: 20%;
+}
+
+.p2-water {
+  background: url('https://github.com/Kda8000/Water/blob/master/images/Page2-Head.jpg?raw=true') no-repeat;
+  background-position: 55%;
+}
+
+.p3-deficiency {
+  background: url('https://github.com/Kda8000/Water/blob/master/images/Page3-Head.jpg?raw=true') no-repeat;
+  background-position: 30%;
+}
+
+.p4-technologies {
+  background: url('https://github.com/Kda8000/Water/blob/master/images/Page4-Head.jpg?raw=true') no-repeat;
+  background-position: 55%;
+}
+
+.p5-innovations {
+  background: url('https://github.com/Kda8000/Water/blob/master/images/Page5-Head.jpg?raw=true') no-repeat;
+  background-position: 40%;
+}
+
+.p6-map {
+  background: url('https://github.com/Kda8000/Water/blob/master/images/Page6-Head.jpg?raw=true') no-repeat;
+  background-position: 10%;
+}
+
+.content-head1, .content-head2, .content-head4, .content-head5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.content-head1 {
+  text-align: right;
+  color: white;
+}
+
+.content-head2 {
+  text-align: right;
+  color: red;
+}
+
+.content-head3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  vertical-align: middle;
+  font-size: 50px;
+  padding: 0px 15px;
+  color: red;
+}
+
+.content-head4 {
+  text-align: center;
+  color: white;
+}
+
+.content-head5 {
+  text-align: center;
+  color: red;
+}
+
+th {
+  height: 40px;
+  width: 200px;
+  vertical-align: bottom;
+}
+
+td {
+  height: 40px;
+  vertical-align: top;
+}
+
+table, .head-quote {
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+}
+
+table {
+  bottom: 100px;
+  right: 0px;
+}
+
+.head-quote {
+  position: absolute;
+  top: 80%;
+  left: 0px;
+  padding: 15px;
+}
+
+.content-black-head-1, .content-black-head-2 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color: black;
+}
+
+.content-black-head-1 {
+  font-size: 18px;
+}
+
+.content-black-head-2 {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.content-black {
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: black;
+}
+
+.content-white-head-1, .content-white-head-2, .content-white-head-3, .content-red {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color: white;
+}
+
+.content-white-head-1 {
+  font-size: 18px;
+}
+
+.content-white-head-2 {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.content-white-head-3 {
+  font-size: 18px;
+  background: black;
+}
+
+.content-white {
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+.content-red {
+  font-size: 18px;
+  color: red;
+}
+
+.quote {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background: #666666;
+  padding: 15px 15px;
+}
+
+.quote h1 {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.quote p {
+  font-weight: normal;
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+#Tubes-full, #Child-full {
+  display: none;
+}
+
+#Tubes {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  max-width: 250px;
+  padding: 15px 0px;
+}
+
+#Tribe, #Child, #India, #Bangladesh, #Butan, #Maldives, #Nepal, #Egypt, #Algeria, #Libya, #Morocco, #Spain, #Georgia, #Taiwan, #Kyrgyzstan, #USA, #Microscope, #Field, #Products, #Children, #Migrants, #Climate, #Tourism {
+  width: 100vw;
+  max-width: 550px;
+}
+
+#Workers, #Electrodialysis, #Glacier, #Engineer, #Water-1, #Cleaner, #Pipe-1, #Hunters, #Nano-chip, #Energy-1 {
+  width: 100vw;
+  max-width: 550px;
+}
+
+#Tribe {
+  padding-top: 20px;
+}
+
+#People, #City, #Flasks, #Lighting, #Molecula {
+  max-width: 50px;
+  padding-bottom: 15px;
+}
+
+#Ultrafiltration, #Distillation {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Ultrafiltration {
+  width: 70%;
+}
+
+#Distillation {
+  width: 90%;
+}
+
+#Cold, #Hot {
+  width: 50px;
+}
+
+.gray {
+  background: #666666;
+}
+
+.border-blue {
+  border: 2px solid #0000ff;
+}
+
+.border-red {
+  border: 2px solid red;
+}
+
+.border-green {
+  border: 2px solid green;
+}
+
+.border-orange {
+  border: 2px solid orange;
+}
+
+.border-violet {
+  border: 2px solid DarkViolet;
+}
+
+.statistic, .card-1, .card-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.statistic p {
+  margin: 5px;
+}
+
+.full-card1, .full-card2, .full-card3, .full-card4, .full-card5, .full-card6 {
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 40%;
+  width: 70%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.full-card1 {
+  background-image: url('https://github.com/Kda8000/Water/blob/master/images/Page1-Card1.jpg?raw=true');
+}
+
+.full-card2 {
+  background-image: url('https://github.com/Kda8000/Water/blob/master/images/Page1-Card2.jpg?raw=true');
+}
+
+.full-card3 {
+  background-image: url('https://github.com/Kda8000/Water/blob/master/images/Page1-Card3.jpg?raw=true');
+}
+
+.full-card4 {
+  background-image: url('https://github.com/Kda8000/Water/blob/master/images/Page1-Card4.jpg?raw=true');
+}
+
+.full-card5 {
+  background-image: url('https://github.com/Kda8000/Water/blob/master/images/Page1-Card5.jpg?raw=true');
+}
+
+.full-card6 {
+  background-image: url('https://github.com/Kda8000/Water/blob/master/images/Page1-Card6.jpg?raw=true');
+}
+
+.background-video {
+  background-image: url('https://github.com/Kda8000/Water/blob/master/images/Page4-Background%20for%20video.jpg?raw=true');
+  width: 100vw;
+  width: auto;
+  background-size: cover;
+}
+
+.zone-indentation {
+  padding: 15px 15px;
+}
+
+.hidden-zone-2, .image2, #Tribe-full, .mySlides1, .mySlides2 {
+  display: none;
+}
+
+.carusel {
+  box-sizing: border-box;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dot1, .dot2 {
+  position: relative;
+  top: 10px;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgba(128, 128, 128, .5);
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
