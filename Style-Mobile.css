@@ -75,8 +75,9 @@ body {
 }
 
 /*Finish dropdown menu*/
+
 body, html {
-    height: 100%;
+  height: 100%;
 }
 
 .p1-man, .p2-water, .p3-deficiency, .p4-technologies, .p5-innovations, .p6-map {
@@ -270,7 +271,32 @@ table {
   padding: 15px 0px;
 }
 
-#Tribe, #Child, #India, #Bangladesh, #Butan, #Maldives, #Nepal, #Egypt, #Algeria, #Libya, #Morocco, #Spain, #Georgia, #Taiwan, #Kyrgyzstan, #USA, #Microscope, #Field, #Products, #Children, #Migrants, #Climate, #Tourism {
+#Tribe, #Child, #India, #Bangladesh, #Butan, #Maldives, #Nepal, #Microscope, #Field, #Products, #Children, #Migrants, #Climate, #Tourism {
+  width: 100vw;
+  max-width: 550px;
+}
+
+#Egypt, #Algeria, #Libya, #Morocco, #Spain {
+  width: 100vw;
+  max-width: 550px;
+}
+
+#Georgia, #Abkhazia, #Armenia, #Cyprus, #UAE {
+  width: 100vw;
+  max-width: 550px;
+}
+
+#Taiwan, #Korea, #Japan, #DPRK, #China {
+  width: 100vw;
+  max-width: 550px;
+}
+
+#Kyrgyzstan, #Kazakhstan, #Tajikistan, #Turkmenistan, #Uzbekistan {
+  width: 100vw;
+  max-width: 550px;
+}
+
+#USA1, #USA2, #USA3, #Peru, #Mexico {
   width: 100vw;
   max-width: 550px;
 }
@@ -391,7 +417,7 @@ table {
   padding: 15px 15px;
 }
 
-.hidden-zone-2, .image2, #Tribe-full, .mySlides1, .mySlides2 {
+.hidden-zone-2, .image2, #Tribe-full, .mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6 {
   display: none;
 }
 
@@ -428,7 +454,7 @@ table {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.dot1, .dot2 {
+.dot1, .dot2, .dot3, .dot4, .dot5, .dot6 {
   position: relative;
   top: 10px;
   cursor: pointer;
@@ -470,6 +496,32 @@ table {
 
 #myBtn:hover {
   background-color: #555;
+}
+
+.content-black-head-2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.content-white-head-2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.map-site a {
+  text-decoration: none;
+  color: black;
+}
+
+.video-position {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video {
+  width: 90vw;
+  height: 29vh;
 }
 
 @-webkit-keyframes fade {

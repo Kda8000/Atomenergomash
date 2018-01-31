@@ -4,9 +4,10 @@ body {
   margin: 0px;
   padding: 0px;
 }
+
 @media all and (min-width: 550px) {
   body, html {
-      height: 100%;
+    height: 100%;
   }
   .menu {
     display: flex;
@@ -75,11 +76,35 @@ body {
     display: flex;
     justify-content: space-around;
   }
-  #India, #Bangladesh, #Butan, #Maldives, #Nepal, #Georgia, #Kyrgyzstan, #Field, #Children, #Climate, #Workers, #Ultrafiltration, #Distillation, #Cleaner, #Tribe {
+  #India, #Bangladesh, #Butan, #Maldives, #Nepal {
     padding-top: 30px;
     padding-left: 30px;
   }
-  #Egypt, #Taiwan, #USA, #Microscope, #Products, #Migrants, #Tourism, #Electrodialysis, #Glacier, #Engineer, #Hunters, #Energy-1, #Child {
+  #Egypt, #Algeria, #Libya, #Morocco, #Spain {
+    padding-top: 30px;
+    padding-right: 30px;
+  }
+  #Georgia, #Abkhazia, #Armenia, #Cyprus, #UAE {
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  #Taiwan, #Korea, #Japan, #DPRK, #China {
+    padding-top: 30px;
+    padding-right: 30px;
+  }
+  #Kyrgyzstan, #Kazakhstan, #Tajikistan, #Turkmenistan, #Uzbekistan {
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  #USA1, #USA2, #USA3, #Peru, #Mexico {
+    padding-top: 30px;
+    padding-right: 30px;
+  }
+  #Field, #Children, #Climate, #Workers, #Ultrafiltration, #Distillation, #Cleaner, #Tribe {
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  #Microscope, #Products, #Migrants, #Tourism, #Electrodialysis, #Glacier, #Engineer, #Hunters, #Energy-1, #Child {
     padding-top: 30px;
     padding-right: 30px;
   }
@@ -274,20 +299,63 @@ body {
   .flex-zone-right {
     flex-direction: row;
   }
-  #Microscope, #Products, #Migrants, #Tourism, #Egypt, #Taiwan, #USA, #Hunters, #Energy-1, #Glacier, #Engineer {
+  #Microscope, #Products, #Migrants, #Tourism, #Hunters, #Energy-1, #Glacier, #Engineer {
     position: relative;
     top: 0px;
     left: 30px;
     width: 290px;
     height: 170px;
   }
-  #Field, #Children, #Climate, #India, #Bangladesh, #Butan, #Maldives, #Nepal, #Georgia, #Kyrgyzstan, #Workers, #Cleaner {
+  #Field, #Children, #Climate, #Workers, #Cleaner {
     position: relative;
     top: 0px;
     left: 0px;
     width: 290px;
     height: 170px;
   }
+  #India, #Bangladesh, #Butan, #Maldives, #Nepal {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 290px;
+    height: 170px;
+  }
+  #Egypt, #Algeria, #Libya, #Morocco, #Spain {
+    position: relative;
+    top: 0px;
+    left: 30px;
+    width: 290px;
+    height: 170px;
+  }
+  #Georgia, #Abkhazia, #Armenia, #Cyprus, #UAE {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 290px;
+    height: 170px;
+  }
+  #Taiwan, #Korea, #Japan, #DPRK, #China {
+    position: relative;
+    top: 0px;
+    left: 30px;
+    width: 290px;
+    height: 170px;
+  }
+  #Kyrgyzstan, #Kazakhstan, #Tajikistan, #Turkmenistan, #Uzbekistan {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 290px;
+    height: 170px;
+  }
+  #USA1, #USA2, #USA3, #Peru, #Mexico{
+    position: relative;
+    top: 0px;
+    left: 30px;
+    width: 290px;
+    height: 170px;
+  }
+
   #Electrodialysis {
     width: 300px;
   }
@@ -307,10 +375,13 @@ body {
     padding-top: 30px;
     padding-left: 30px;
   }
-
   #myBtn {
     padding: 10px;
     border-radius: 25px;
     width: 25px;
     height: 25px;
+  }
+  .video {
+    width: 50vw;
+    height: 50vh;
   }

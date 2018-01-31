@@ -4,9 +4,10 @@ body {
   margin: 0px;
   padding: 0px;
 }
+
 @media all and (min-width: 850px) {
   body, html {
-      height: 100%;
+    height: 100%;
   }
   #Water-1, #Pipe-1 {
     width: 100vw;
@@ -53,11 +54,11 @@ body {
     width: 493px;
     height: 293px;
   }
-  #Microscope, #Products, #Migrants, #Tourism, #Egypt, #Taiwan, #USA, #Hunters, #Energy-1, #Glacier, #Engineer {
+  #Microscope, #Products, #Migrants, #Tourism, #Egypt, #Algeria, #Libya, #Morocco, #Spain, #Taiwan, #Korea, #Japan, #DPRK, #China, #USA1, #USA2, #USA3, #Peru, #Mexico, #Hunters, #Energy-1, #Glacier, #Engineer {
     width: 500px;
     height: 300px;
   }
-  #Field, #Children, #Climate, #India, #Bangladesh, #Butan, #Maldives, #Nepal, #Georgia, #Kyrgyzstan, #Workers {
+  #Field, #Children, #Climate, #India, #Bangladesh, #Butan, #Maldives, #Nepal, #Bangladesh, #Butan, #Maldives, #Nepal, #Georgia, #Abkhazia, #Armenia, #Cyprus, #UAE, #Kyrgyzstan, #Kazakhstan, #Tajikistan, #Turkmenistan, #Uzbekistan, #Workers {
     width: 500px;
     height: 300px;
   }
