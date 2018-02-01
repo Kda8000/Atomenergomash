@@ -31,30 +31,48 @@ body {
     height: 30px;
   }
   .page1-tubes-border {
+    animation-name: border-full-animation11;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
     width: 173px;
     height: 293px;
   }
   .page1-child-border {
+    animation-name: border-full-animation12;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
     width: 543px;
     height: 293px;
   }
   .page2-image-border {
+    animation-name: border-full-animation2;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
     width: 493px;
     height: 293px;
   }
   .page3-image-border {
+    animation-name: border-full-animation3;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
     width: 493px;
     height: 293px;
   }
   .page4-image-border {
+    animation-name: border-full-animation4;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
     width: 493px;
     height: 293px;
   }
   .page5-image-border {
+    animation-name: border-full-animation5;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
     width: 493px;
     height: 293px;
   }
-  #Microscope, #Products, #Migrants, #Tourism, #Egypt, #Algeria, #Libya, #Morocco, #Spain, #Taiwan, #Korea, #Japan, #DPRK, #China, #USA1, #USA2, #USA3, #Peru, #Mexico, #Hunters, #Energy-1, #Glacier, #Engineer {
+  #Microscope, #Products, #Migrants, #Tourism, #Egypt, #Algeria, #Libya, #Morocco, #Spain, #Taiwan, #Korea, #Japan, #DPRK, #China, #USA1, #USA2, #USA3, #Peru, #Mexico, #Hunters-1, #Energy-1, #Glacier, #Engineer {
     width: 500px;
     height: 300px;
   }
@@ -74,4 +92,77 @@ body {
   }
   #Nano-chip {
     width: 450px;
+  }
+  @keyframes border-full-animation11 {
+    0% {
+      border-color: black;
+      height: 25px;
+      width: 25px;
+    }
+    100% {
+      border-color: blue;
+      height: 293px;
+      width: 173px;
+    }
+  }
+    @keyframes border-full-animation12 {
+    0% {
+      border-color: black;
+      height: 25px;
+      width: 25px;
+    }
+    100% {
+      border-color: blue;
+      height: 293px;
+      width: 543px;
+    }
+  }
+
+      @keyframes border-full-animation2 {
+    0% {
+      border-color: black;
+      height: 25px;
+      width: 25px;
+    }
+    100% {
+      border-color: red;
+      height: 293px;
+      width: 493px;
+    }
+  }
+    @keyframes border-full-animation3 {
+    0% {
+      border-color: black;
+      height: 25px;
+      width: 25px;
+    }
+    100% {
+      border-color: green;
+      height: 293px;
+      width: 493px;
+    }
+  }
+    @keyframes border-full-animation4 {
+    0% {
+      border-color: black;
+      height: 25px;
+      width: 25px;
+    }
+    100% {
+      border-color: orange;
+      height: 293px;
+      width: 493px;
+    }
+  }
+    @keyframes border-full-animation5 {
+    0% {
+      border-color: black;
+      height: 25px;
+      width: 25px;
+    }
+    100% {
+      border-color: DarkViolet;
+      height: 293px;
+      width: 493px;
+    }
   }

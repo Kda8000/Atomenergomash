@@ -25,10 +25,13 @@ var slides3 = createSlides("mySlides3", "dot3");
 var slides4 = createSlides("mySlides4", "dot4");
 var slides5 = createSlides("mySlides5", "dot5");
 var slides6 = createSlides("mySlides6", "dot6");
+var slides7 = createSlides("mySlides7", "dot7");
+var slides8 = createSlides("mySlides8", "dot8");
 slides1();
 slides2();
 slides3();
 slides4();
 slides5();
 slides6();
-
+slides7();
+slides8();

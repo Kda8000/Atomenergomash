@@ -58,8 +58,14 @@ body {
     font-weight: normal;
   }
   .menu-home-dropdown:hover .menu-position, .menu-technologies-dropdown:hover .menu-position, .menu-innovations-dropdown:hover .menu-position, .menu-about-us-dropdown:hover .menu-position, .menu-contacts-dropdown:hover .menu-position {
-    background: white;
+    background: red;
     color: black;
+  }
+  .menu-technologies-dropdown:hover {
+    color: white;
+  }
+  .menu-position:hover a {
+    color: white;
   }
   .flex-zone, .flex-zone-reverse {
     display: flex;
@@ -104,11 +110,15 @@ body {
     padding-top: 30px;
     padding-left: 30px;
   }
-  #Microscope, #Products, #Migrants, #Tourism, #Electrodialysis, #Glacier, #Engineer, #Hunters, #Energy-1, #Child {
+  #Hunters-1, #Hunters-2, #Hunters-3 {
     padding-top: 30px;
     padding-right: 30px;
   }
-  #Water-1, #Pipe-1 {
+  #Microscope, #Products, #Migrants, #Tourism, #Electrodialysis, #Glacier, #Engineer, #Energy-1, #Child {
+    padding-top: 30px;
+    padding-right: 30px;
+  }
+  #Water-1, #Pipe-1, #Pipe-2, #Pipe-3, #Pipe-4 {
     width: 100vw;
     max-width: none;
   }
@@ -253,31 +263,49 @@ body {
     position: absolute;
   }
   .page1-tubes-border {
+    animation-name: border-animation11;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
     width: 173px;
     height: 293px;
     border: 7px solid blue;
   }
   .page1-child-border {
+    animation-name: border-animation12;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
     width: 283px;
     height: 163px;
     border: 7px solid blue;
   }
   .page2-image-border {
+    animation-name: border-animation2;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
     width: 283px;
     height: 163px;
     border: 7px solid red;
   }
   .page3-image-border {
+    animation-name: border-animation3;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
     width: 283px;
     height: 163px;
     border: 7px solid green;
   }
   .page4-image-border {
+    animation-name: border-animation4;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
     width: 283px;
     height: 163px;
     border: 7px solid orange;
   }
   .page5-image-border {
+    animation-name: border-animation5;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
     width: 283px;
     height: 163px;
     border: 7px solid DarkViolet;
@@ -299,7 +327,7 @@ body {
   .flex-zone-right {
     flex-direction: row;
   }
-  #Microscope, #Products, #Migrants, #Tourism, #Hunters, #Energy-1, #Glacier, #Engineer {
+  #Microscope, #Products, #Migrants, #Tourism, #Energy-1, #Glacier, #Engineer {
     position: relative;
     top: 0px;
     left: 30px;
@@ -348,14 +376,20 @@ body {
     width: 290px;
     height: 170px;
   }
-  #USA1, #USA2, #USA3, #Peru, #Mexico{
+  #USA1, #USA2, #USA3, #Peru, #Mexico {
     position: relative;
     top: 0px;
     left: 30px;
     width: 290px;
     height: 170px;
   }
-
+  #Hunters-1, #Hunters-2, #Hunters-3 {
+    position: relative;
+    top: 0px;
+    left: 30px;
+    width: 290px;
+    height: 170px;
+  }
   #Electrodialysis {
     width: 300px;
   }
@@ -384,4 +418,76 @@ body {
   .video {
     width: 50vw;
     height: 50vh;
+  }
+  @keyframes border-animation11 {
+    0% {
+      border-color: black;
+      height: 25px;
+      width: 25px;
+    }
+    100% {
+      border-color: blue;
+      height: 293px;
+      width: 173px;
+    }
+  }
+    @keyframes border-animation12 {
+    0% {
+      border-color: black;
+      height: 25px;
+      width: 25px;
+    }
+    100% {
+      border-color: blue;
+      height: 163px;
+      width: 283px;
+    }
+  }
+      @keyframes border-animation2 {
+    0% {
+      border-color: black;
+      height: 25px;
+      width: 25px;
+    }
+    100% {
+      border-color: red;
+      height: 163px;
+      width: 283px;
+    }
+  }
+    @keyframes border-animation3 {
+    0% {
+      border-color: black;
+      height: 25px;
+      width: 25px;
+    }
+    100% {
+      border-color: green;
+      height: 163px;
+      width: 283px;
+    }
+  }
+    @keyframes border-animation4 {
+    0% {
+      border-color: black;
+      height: 25px;
+      width: 25px;
+    }
+    100% {
+      border-color: orange;
+      height: 163px;
+      width: 283px;
+    }
+  }
+    @keyframes border-animation5 {
+    0% {
+      border-color: black;
+      height: 25px;
+      width: 25px;
+    }
+    100% {
+      border-color: DarkViolet;
+      height: 163px;
+      width: 283px;
+    }
   }

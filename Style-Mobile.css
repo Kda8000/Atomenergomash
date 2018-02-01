@@ -15,6 +15,7 @@ body {
 
 .menu-position a {
   text-decoration: none;
+  color: white;
 }
 
 .menu-position {
@@ -301,7 +302,17 @@ table {
   max-width: 550px;
 }
 
-#Workers, #Electrodialysis, #Glacier, #Engineer, #Water-1, #Cleaner, #Pipe-1, #Hunters, #Nano-chip, #Energy-1 {
+#Pipe-1, #Pipe-2, #Pipe-3, #Pipe-4 {
+  width: 100vw;
+  max-width: 550px;
+}
+
+#Hunters-1, #Hunters-2, #Hunters-3 {
+  width: 100vw;
+  max-width: 550px;
+}
+
+#Workers, #Electrodialysis, #Glacier, #Engineer, #Water-1, #Cleaner, #Nano-chip, #Energy-1 {
   width: 100vw;
   max-width: 550px;
 }
@@ -338,22 +349,37 @@ table {
 }
 
 .border-blue {
+  animation-name: border-color1;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
   border: 2px solid #0000ff;
 }
 
 .border-red {
+  animation-name: border-color2;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
   border: 2px solid red;
 }
 
 .border-green {
+  animation-name: border-color3;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
   border: 2px solid green;
 }
 
 .border-orange {
+  animation-name: border-color4;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
   border: 2px solid orange;
 }
 
 .border-violet {
+  animation-name: border-color5;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
   border: 2px solid DarkViolet;
 }
 
@@ -417,7 +443,7 @@ table {
   padding: 15px 15px;
 }
 
-.hidden-zone-2, .image2, #Tribe-full, .mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6 {
+.hidden-zone-2, .image2, #Tribe-full, .mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6, .mySlides7, .mySlides8 {
   display: none;
 }
 
@@ -426,7 +452,7 @@ table {
 }
 
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 1500px;
   position: relative;
   margin: auto;
 }
@@ -454,7 +480,7 @@ table {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.dot1, .dot2, .dot3, .dot4, .dot5, .dot6 {
+.dot1, .dot2, .dot3, .dot4, .dot5, .dot6, .dot7, .dot8 {
   position: relative;
   top: 10px;
   cursor: pointer;
@@ -541,3 +567,43 @@ table {
     opacity: 1
   }
 }
+  @keyframes border-color1 {
+    0% {
+      border-color: black;
+    }
+    100% {
+      border-color: blue;
+    }
+  }
+    @keyframes border-color2 {
+    0% {
+      border-color: black;
+    }
+    100% {
+      border-color: red;
+    }
+  }
+    @keyframes border-color3 {
+    0% {
+      border-color: black;
+    }
+    100% {
+      border-color: green;
+    }
+  }
+    @keyframes border-color4 {
+    0% {
+      border-color: black;
+    }
+    100% {
+      border-color: orange;
+    }
+  }
+    @keyframes border-color5 {
+    0% {
+      border-color: black;
+    }
+    100% {
+      border-color: DarkViolet;
+    }
+  }
