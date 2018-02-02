@@ -63,7 +63,6 @@ body {
 
 .menu-home-content a:hover, .menu-technologies-content a:hover, .menu-innovations-content a:hover, .menu-about-us-content a:hover, .menu-contacts-content a:hover {
   background-color: rgba(255, 4, 0, 0.3);
-  font-weight: bold;
 }
 
 .menu-home-dropdown:hover .menu-home-content, .menu-technologies-dropdown:hover .menu-technologies-content, .menu-innovations-dropdown:hover .menu-innovations-content, .menu-about-us-dropdown:hover .menu-about-us-content, .menu-contacts-dropdown:hover .menu-contacts-content {
@@ -88,7 +87,7 @@ body, html {
 
 .p1-man {
   background: url('https://github.com/Kda8000/Water/blob/master/images/Page1-Head.jpg?raw=true') no-repeat;
-  background-position: 20%;
+  background-position: 32% top;
 }
 
 .p2-water {
@@ -103,12 +102,12 @@ body, html {
 
 .p4-technologies {
   background: url('https://github.com/Kda8000/Water/blob/master/images/Page4-Head.jpg?raw=true') no-repeat;
-  background-position: 55%;
+  background-position: 53% top;
 }
 
 .p5-innovations {
   background: url('https://github.com/Kda8000/Water/blob/master/images/Page5-Head.jpg?raw=true') no-repeat;
-  background-position: 40%;
+  background-position: 40% 35%;
 }
 
 .p6-map {
@@ -548,6 +547,10 @@ table {
 .video {
   width: 90vw;
   height: 29vh;
+}
+
+.map-site li:hover {
+  text-decoration: underline;
 }
 
 @-webkit-keyframes fade {

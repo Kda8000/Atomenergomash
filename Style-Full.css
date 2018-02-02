@@ -93,6 +93,13 @@ body {
   #Nano-chip {
     width: 450px;
   }
+  .full-card1, .full-card2, .full-card3, .full-card4, .full-card5, .full-card6 {
+    min-width: 200px;
+    max-width: 300px;
+    height: 400px;
+    padding: 25px;
+    margin: 10px;
+  }
   @keyframes border-full-animation11 {
     0% {
       border-color: black;
@@ -105,7 +112,7 @@ body {
       width: 173px;
     }
   }
-    @keyframes border-full-animation12 {
+  @keyframes border-full-animation12 {
     0% {
       border-color: black;
       height: 25px;
@@ -117,8 +124,7 @@ body {
       width: 543px;
     }
   }
-
-      @keyframes border-full-animation2 {
+  @keyframes border-full-animation2 {
     0% {
       border-color: black;
       height: 25px;
@@ -130,7 +136,7 @@ body {
       width: 493px;
     }
   }
-    @keyframes border-full-animation3 {
+  @keyframes border-full-animation3 {
     0% {
       border-color: black;
       height: 25px;
@@ -142,7 +148,7 @@ body {
       width: 493px;
     }
   }
-    @keyframes border-full-animation4 {
+  @keyframes border-full-animation4 {
     0% {
       border-color: black;
       height: 25px;
@@ -154,7 +160,7 @@ body {
       width: 493px;
     }
   }
-    @keyframes border-full-animation5 {
+  @keyframes border-full-animation5 {
     0% {
       border-color: black;
       height: 25px;

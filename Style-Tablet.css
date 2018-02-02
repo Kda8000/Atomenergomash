@@ -54,7 +54,7 @@ body {
     font-family: 'Montserrat', sans-serif;
   }
   .menu-home-content a:hover, .menu-technologies-content a:hover, .menu-innovations-content a:hover, .menu-about-us-content a:hover, .menu-contacts-content a:hover {
-    background-color: #c4d6fa;
+    background-color: #ffb4b3;
     font-weight: normal;
   }
   .menu-home-dropdown:hover .menu-position, .menu-technologies-dropdown:hover .menu-position, .menu-innovations-dropdown:hover .menu-position, .menu-about-us-dropdown:hover .menu-position, .menu-contacts-dropdown:hover .menu-position {
@@ -206,7 +206,7 @@ body {
     align-items: flex-start;
   }
   .full-card1, .full-card2, .full-card3, .full-card4, .full-card5, .full-card6 {
-    min-width: 200px;
+    min-width: 130px;
     height: 400px;
     padding: 20px;
     margin: 10px;
